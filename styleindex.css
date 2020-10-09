@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-font-family:"M PLUS 1p",sans-serif;
+font-family:"Josefin Sans","Noto sans JP",sans-serif;
 }
 /*------------------------------
 ページ共通で使うインナー
@@ -16,20 +16,22 @@ font-family:"M PLUS 1p",sans-serif;
 ------------------------------*/
 .page-header {
   background-color: #afeeee;
+
 }
+
+.header-logo {
+  color: #fffff;
+  float:left;
+}
+
 
 li{
 list-style: none;
 float:left;
 padding:30px 20px;
 
-/*.page-header__inner {
+.page-header__inner {
   padding: 24px 0;
-}*/
-
-.header-logo {
-  color: #fffff;
-  float:left;
 }
 
 
@@ -116,7 +118,7 @@ padding:30px 20px;
 ------------------------------*/
 .page-footer {
   padding: 22px 0;
-  background-color: #5A442A;
+  background-color: #afeeee;
 }
 
 .page-footer p {
