@@ -74,7 +74,13 @@ padding:30px 20px;
 }
 
 /* 写真＋テキストのブロック */
-.photo-work {
+img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+/*.photo-work {
   display: flex;
 }
 
@@ -88,7 +94,7 @@ padding:30px 20px;
 }
 
 /* 過去作品へのテキストリンク */
-.old-works {
+/*.old-works {
   line-height: 1.0;
   text-align: center;
 }
