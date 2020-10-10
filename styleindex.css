@@ -1,8 +1,4 @@
 @charset "UTF-8";
-
-body {
-font-family:"Josefin Sans","Noto sans JP",sans-serif;
-}
 /*------------------------------
 ページ共通で使うインナー
 ------------------------------*/
@@ -15,29 +11,29 @@ font-family:"Josefin Sans","Noto sans JP",sans-serif;
 ページヘッダー
 ------------------------------*/
 .page-header {
-  background-color: #afeeee;
-
+  background-color: #9fdbea;
 }
-
-.header-logo {
-  color: #fffff;
-  float:left;
-}
-
-
-li{
-list-style: none;
-float:left;
-padding:30px 20px;
 
 .page-header__inner {
   padding: 24px 0;
 }
 
+.page-header__title {
+  color: #fff;
+  line-height: 1.0;
+}
+
+.page-header__title .large {
+  font-size: 3.2rem;
+}
+
+.page-header__title .small {
+  font-size: 2rem;
+}
 
 .page-header__main-visual img {
   width: 100%;
-}*/
+}
 
 /*------------------------------
 メインコンテンツ
@@ -74,35 +70,29 @@ padding:30px 20px;
 }
 
 /* 写真＋テキストのブロック */
-img {
-  object-fit: cover;
-  width: 200px;
-  height: 200px;
-}
-
-/*.photo-work {
+.photo-work {
   display: flex;
 }
 
-.photo-work__image {
-  width: 480px;
-  margin-right: 20px;
-}
-
-.photo-work__text {
-  font-size: 1.6rem;
+img{
+height:150px;
+width:150px;
+object-fit: cover;
 }
 
 /* 過去作品へのテキストリンク */
-/*.old-works {
+.old-works {
   line-height: 1.0;
   text-align: center;
 }
 
 .old-works a {
   color: #707070;
- 
- 
+  /*
+      子要素の.largeと.mediumのフォントサイズが異なっているので、
+      text-decoration: underlineでは下線の太さが異なってしまう。
+      そのためborder-bottomで代替する。
+    */
   text-decoration: none;
   border-bottom: 2px solid;
 }
@@ -124,7 +114,7 @@ img {
 ------------------------------*/
 .page-footer {
   padding: 22px 0;
-  background-color: #afeeee;
+  background-color: #9fdbea;
 }
 
 .page-footer p {
