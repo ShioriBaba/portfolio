@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*------------------------------
 ページ共通で使うインナー
 ------------------------------*/
@@ -24,12 +23,19 @@
   line-height: 1.0;
 }
 
-.page-header__title .large {
-  font-size: 3.2rem;
+
+.header-logo{
+ color:#505b66;
+ font-family:"Josefin Sans",sans-serif;
+ float left;
 }
 
-.page-header__title .small {
-  font-size: 2rem;
+li{
+list-style: none;
+float:left;
+font-family:"Josefin Sans",sans-serif;
+font size:1rem;
+padding:0px 20px;
 }
 
 .page-header__main-visual img {
@@ -40,26 +46,29 @@
 メインコンテンツ
 ------------------------------*/
 .main-content {
-  padding: 50px 0;
+  padding: 40px 0;
   background-color: #FAF5ED;
 }
 
-/* コンテンツのヘッダー */
-.section-header {
-  margin-bottom: 30px;
+h2{
+font-family:"Josefin Sans",sans-serif;
 }
 
-.section-header__title {
-  line-height: 1;
+h3{
+font-family:"Josefin Sans",sans-serif;
+font size:2rem
 }
 
-.section-header__title .large {
-  font-size: 3.6rem;
+p{
+ font-family:"Josefin Sans",sans-serif;
+ font size:1.5rem;
 }
 
-.section-header__title .small {
-  font-size: 2.4rem;
+.skillset{
+font-family:"Josefin Sans",sans-serif;
+font size:3rem;
 }
+
 
 /* 写真のリスト */
 .work-list {
@@ -70,14 +79,14 @@
   margin-bottom: 30px;
 }
 
-/* 写真＋テキストのブロック */
+/* worksに掲載するイラスト */
 .photo-work {
   display: flex;
 }
 
 img{
-height:300px;
-width:300px;
+height:400px;
+width:400px;
 object-fit: cover;
 }
 
