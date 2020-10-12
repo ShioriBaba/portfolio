@@ -7,6 +7,7 @@
   margin: 0 auto;
 }
 
+/*レスポンシブ対応*/	
 /*------------------------------
 ページヘッダー
 ------------------------------*/
@@ -51,38 +52,26 @@ padding:0px 20px;
 }
 
 h2{
+
 font-family:"Josefin Sans",sans-serif;
+line-height: 1.0;
 }
 
-h3{
-font-family:"Josefin Sans",sans-serif;
-font size:2rem
+img {
+max-width: 100% ;
+height: auto;
 }
 
 p{
  font-family:"Josefin Sans",sans-serif;
  font size:1.5rem;
-}
-
-.skillset{
-font-family:"Josefin Sans",sans-serif;
-font size:3rem;
-}
-
-
-/* 写真のリスト */
-.work-list {
-  margin-bottom: 50px;
-}
-
-.work-list__item:not(:last-child) {
-  margin-bottom: 30px;
+ max-width: 1000px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
 
 /* worksに掲載するイラスト */
-.photo-work {
-  display: flex;
-}
 
 img{
 height:400px;
@@ -128,7 +117,7 @@ object-fit: cover;
 }
 
 .page-footer p {
-  font-size: 1.6rem;
+  font-size: 15px;
   line-height: 1.0;
   text-align: center;
   color: #fff;
