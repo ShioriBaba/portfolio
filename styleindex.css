@@ -56,7 +56,7 @@ font-family:"Josefin Sans",sans-serif;
 padding: 20px 20px;
 }
 
-img {
+.profileimage {
 float:left;margin: 0.8em 0.8em 0.8em 0;
 max-width: 100% ;
 height: auto;
