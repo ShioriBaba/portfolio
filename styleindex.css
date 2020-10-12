@@ -66,7 +66,7 @@ height: auto;
 p{
  font-family:"Josefin Sans",sans-serif;
  font size:1.5rem;
- max-width: 1000px;
+ max-width: 960px;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
@@ -74,38 +74,14 @@ margin-right: auto;
 
 /* worksに掲載するイラスト */
 
-.red{
+img{
 height:400px;
 width:400px;
 float:left;
 object-fit: cover;
 }
 
-.blue{
-height:400px;
-width:400px;
-float:left;
-object-fit: cover;
-}
-
-.green{
-height:400px;
-width:400px;
-float:left;
-object-fit: cover;
-}
-
-
-
-/* 過去作品へのテキストリンク */
-.old-works {
-  line-height: 1.0;
-  text-align: center;
-}
-
-.old-works a {
-  color: #707070;
-  /*
+ /*
       子要素の.largeと.mediumのフォントサイズが異なっているので、
       text-decoration: underlineでは下線の太さが異なってしまう。
       そのためborder-bottomで代替する。
