@@ -28,11 +28,13 @@
 .header-logo{
  color:#505b66;
  font-family:"Josefin Sans",sans-serif;
- float left;
+ display:flex;
+ justify-content:space-between;
 }
 
 li{
 list-style: none;
+display:flex;
 float:left;
 font-family:"Josefin Sans",sans-serif;
 font size:1rem;
@@ -53,11 +55,10 @@ padding:0px 20px;
 
 h2{
 font-family:"Josefin Sans",sans-serif;
-padding: 20px 20px;
+line-height: 1.0;
 }
 
-.profileimage {
-float:left;margin: 0.8em 0.8em 0.8em 0;
+.profileimage{
 max-width: 100% ;
 height: auto;
 }
@@ -65,7 +66,7 @@ height: auto;
 p{
  font-family:"Josefin Sans",sans-serif;
  font size:1.5rem;
- max-width: 790px;
+ max-width: 1000px;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
@@ -73,11 +74,28 @@ margin-right: auto;
 
 /* worksに掲載するイラスト */
 
-img{
+.red{
 height:400px;
 width:400px;
+float:left;
 object-fit: cover;
 }
+
+.blue{
+height:400px;
+width:400px;
+float:left;
+object-fit: cover;
+}
+
+.green{
+height:400px;
+width:400px;
+float:left;
+object-fit: cover;
+}
+
+
 
 /* 過去作品へのテキストリンク */
 .old-works {
