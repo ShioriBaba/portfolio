@@ -13,6 +13,7 @@
 ------------------------------*/
 .page-header {
   background-color: #9fdbea;
+  display:flex;
 }
 
 .page-header__inner {
@@ -28,7 +29,6 @@
 .header-logo{
  color:#505b66;
  font-family:"Josefin Sans",sans-serif;
- justify-content:space-between;
 }
 
 li{
