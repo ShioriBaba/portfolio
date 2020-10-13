@@ -13,6 +13,7 @@
 ------------------------------*/
 .page-header {
   background-color: #9fdbea;
+  display:flex;
 }
 
 .page-header__inner {
@@ -34,11 +35,10 @@
 
 li{
 list-style: none;
-display:flex;
-float:left;
 font-family:"Josefin Sans",sans-serif;
-font size:1rem;
-padding:0px 20px;
+float:left;
+font-size:1rem;
+padding:20px 20px;
 }
 
 .page-header__main-visual img {
@@ -59,9 +59,8 @@ line-height: 1.0;
 }
 
 .profileimage{
-height:400px;
-width:400px;
-object-fit: cover;
+max-width: 100% ;
+height: auto;
 }
 
 p{
@@ -81,16 +80,6 @@ width:400px;
 object-fit: cover;
 }
 
-
-
-/* 過去作品へのテキストリンク */
-.old-works {
-  line-height: 1.0;
-  text-align: center;
-}
-
-.old-works a {
-  color: #707070;
   /*
       子要素の.largeと.mediumのフォントサイズが異なっているので、
       text-decoration: underlineでは下線の太さが異なってしまう。
