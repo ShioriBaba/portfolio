@@ -36,6 +36,7 @@
  list-style:none;
  float:left;
  font-size:1.5rem 
+ padding:20px 20px
 }
 
 .page-header__main-visual img {
@@ -78,6 +79,53 @@ width:400px;
 object-fit: cover;
 max-width: 100% ;
 height: auto;
+}
+
+.feature-list {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: rgba(159,219,234,0.6);
+}
+
+.feature-list__item:nth-child(even) {
+  /* デザインを見る限り、奇数番は左、偶数番は右に文章があるのでodd/evenを使う */
+  flex-direction: row-reverse;
+}
+
+.feature-block {
+  display: flex;
+  background-color: #fffff3;
+}
+
+.feature-block__image {
+  width: 50%;
+}
+
+.feature-block__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feature-block__wrapper {
+  width: 50%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.feature-block__title {
+  margin-bottom: 10px;
+   font-family:"Josefin Sans",sans-serif;
+  font-size: 2.0rem;
+  line-height: 1.75;
+}
+
+.feature-block__text {
+  font-size: 1.6rem;
+   font-family:"Josefin Sans",sans-serif;
+  line-height: 1.75;
 }
 
   /*
