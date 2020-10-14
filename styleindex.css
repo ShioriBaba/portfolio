@@ -51,10 +51,10 @@ padding:20px 20px
 }
 
 .profileimage{
- width:100％;
+ width:300px;
  height:auto; 
  object-fit: cover;
- padding:50px
+ padding:20px
 }
 
 p{
