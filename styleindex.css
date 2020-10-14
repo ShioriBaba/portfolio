@@ -35,8 +35,9 @@
  li{
  list-style:none;
  float:left;
+ font-family:"Josefin Sans",sans-serif;
  font-size:1.5rem 
- padding:0px 20px
+ padding:0px 20px;
 }
 
 .page-header__main-visual img {
@@ -72,14 +73,6 @@ margin-right: auto;
 }
 
 /* worksに掲載するイラスト */
-
-img{
-height:400px;
-width:400px;
-object-fit: cover;
-max-width: 100% ;
-height: auto;
-}
 
 .feature-list {
   width: 960px;
@@ -127,27 +120,6 @@ height: auto;
    font-family:"Josefin Sans",sans-serif;
   line-height: 1.75;
 }
-
-  /*
-      子要素の.largeと.mediumのフォントサイズが異なっているので、
-      text-decoration: underlineでは下線の太さが異なってしまう。
-      そのためborder-bottomで代替する。
-    */
-  /*text-decoration: none;
-  border-bottom: 2px solid;
-}
-
-.old-works a:hover {
-  border-bottom: none;
-}
-
-.old-works .large {
-  font-size: 3.6rem;
-}
-
-.old-works .small {
-  font-size: 2.4rem;
-}*/
 
 /*------------------------------
 ページフッター
