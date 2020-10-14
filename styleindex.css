@@ -51,11 +51,13 @@ padding:20px 20px
 }
 
 .profileimage{
-width: 300px;
+ width: 300px;
+ height:300px; 
+ object-fit: cover; 
  margin: 50px;
-  padding: 50px;
-  box-sizing: border-box;
-  background-color: rgba(159,219,234,0.6);
+ padding: 50px;
+ box-sizing: border-box;
+ background-color: rgba(159,219,234,0.6);
 }
 
 p{
